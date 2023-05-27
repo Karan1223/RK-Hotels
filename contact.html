@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Added basic CSS and JS files-->
+        <link rel="stylesheet" href="./assets/css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="./assets/libraries/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
+        <script src="./assets/libraries/jquery/jquery.min.js"></script>
+        <script src="./assets/libraries/bootstrap/js/bootstrap.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <!--Don`t forget to copy upto this import in every page-->
+        <!-- Custom CSS and JS for this specific page starts here. Don`t copy this to other pages-->
+        <link rel="stylesheet" href="./assets/css/contact.css" type="text/css">
+        <script src="./assets/js/contact.js"></script>
+    </head>
+    <body>
+        <!--Header START-->
+        <div id="header" class="header">
+            <h3 id="company_logo">R.K</h3>
+            <h4 id="company_sub_quote">GROUP OF HOTELS</h4>
+            <div class="header-inner">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="book.html">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Header END-->
+        <!--Main landing view section-->
+        <section id="main-heading">
+            <div class="heading1">
+                <h3>Your Opinion is <br><span>Valuable</span></h3>
+            </div>
+        </section>
+        <section id="contact-form">
+            <div class="contact-box">
+                <div class="flex-item message">
+                    <h3><i>"While we are good with hospitality, there are simpler ways for us to get in touch and answer your questions."</i></h3>
+                </div>
+                <div class="flex-item submit-form">
+                    <div class="form-class">
+                        <div>
+                            <label for="fname">Full Name<span>*</span></label>
+                            <input id="fname" type="text" class="input-form">
+                        </div>
+                        <div>
+                            <label for="email">E-mail<span>*</span></label>
+                            <input id="email" type="email" class="input-form">
+                        </div>
+                        <div>
+                            <label for="book_ref">Booking Reference<span>*</span></label>
+                            <input id="book_ref" type="text" class="input-form">
+                        </div>
+                        <div>
+                            <label for="message">Message<span>*</span></label>
+                            <input type="text" id="message"  class="input-form">
+                        </div>
+                        <button  class="submit-button">Submit</button>
+                        
+                        <!-- <input type="text" class="input-form"> data-toggle="modal" data-target="#confirmationModal"
+                        <input type="text" class="input-form">
+                        <input type="text" class="input-form">
+                        <input type="text" class="input-form"> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal popup START-->
+        
+        <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="confirmationModalLabel">Email Sent</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Thankyou for contacting us. We will reply as soon as possible.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Modal popup  END -->
+        <footer>
+            <p>&copy RK GROUP OF HOTELS</p>
+        </footer>
+    </body>
+</html>

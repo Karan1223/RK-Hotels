@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&family=Playfair+Display:ital@0;1&display=swap');
+.main_view .image_container {
+    display: block;
+    position: relative;
+    top: 120px;
+}
+.main_view .image_container img {
+    /* position: absolute; */
+    width: 100%;
+    height: 600px;
+}
+.main_view .image_container h2 {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    color: white;
+    top: 30px;
+    left:50px;
+    font-size: 150px;
+}
+.main_view .image_container h2 span {
+    color: red;
+    text-decoration: underline;
+}
+
+.image_collages {
+    display: block;
+    width: 100%;
+    padding-top: 170px;
+}
+.image_collages h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 100px;
+}
+.image_collages h2 span {
+    color: red;
+    text-decoration:wavy;
+}
+.image_collages img {
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.image_collages .flex-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+.image_collages_two {
+    display: block;
+    width: 100%;
+    padding-top: 170px;
+    margin-bottom: 50px;
+}
+.image_collages_two h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 100px;
+}
+.image_collages_two h2 span {
+    color: red;
+    text-decoration:wavy;
+}
+.image_collages_two img {
+    width: 350px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.image_collages_two .flex-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}

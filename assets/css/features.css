@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&family=Playfair+Display:ital@0;1&display=swap');
+#mainHeading h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+}
+#mainHeading h2 span {
+    color: red;
+}
+#mainHeading {
+   
+    text-align: center;
+}
+.top_heading {
+    margin-top: 150px;
+}
+.image_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url("../images/features/f1.jpg");
+    background-repeat: no-repeat;
+
+}
+.image_container img {
+    
+    width: 750px;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    background:linear-gradient(135deg, #E3E3E3 0%,#5D6874 100%);
+    
+    color: black;
+    /* background:linear-gradient(135deg, #C56CD6 0%,#3425AF 100%); */
+    width: 500px;
+    margin-top: 25px;
+    transition: ease 0.2s;
+    height: 200px;
+}
+.card h3 {
+    /* color: white; */
+    font-family: 'Playfair Display', serif;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&family=Playfair+Display:ital@0;1&display=swap');
+#main-heading {
+    margin-top: 150px;
+}
+#main-heading .heading1 {
+    text-align: center;
+}
+#main-heading .heading1 h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+
+}
+#main-heading .heading1 h3 span{
+    color: red;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px #b3b3b3, 
+            -30px -30px 60px #fafafa;
+            background-image: url("../images/contact_us.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.contact-box .flex-item {
+    margin: 25px;
+}
+.contact-box .message {
+    width: 50%;
+}
+.contact-box .message h3{
+    color: red;
+    font-family: 'Playfair Display', serif;
+}
+.contact-box .contact-form {
+    width: 50%;
+}
+.contact-box .submit-form .input-form {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px #b3b3b3, 
+            -30px -30px 60px #fafafa;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+}
+.contact-box .submit-form .submit-button {
+    width: 100%;
+    margin-top: 15px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px #b3b3b3, 
+            -30px -30px 60px #fafafa;
+            background-color: black;
+            color: white;
+}
+.submit-form .form-class div {
+    line-height: 0px;
+    margin-top: 30px;
+}
+.submit-form .form-class {
+    margin: 30px;
+}
+.submit-form {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px #b3b3b3, 
+            -30px -30px 60px #fafafa;
+    background-color: white;
+    color: black;
+}
+/*Modal*/
+
+.modal-header .modal-title{
+    color: green;
+}
+#contact-form {
+    margin-bottom: 100px;
+}
+.form-class label span {
+    color: red;
+}
+#message {
+    color: black
+}

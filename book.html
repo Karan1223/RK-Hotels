@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Added basic CSS and JS files-->
+        <link rel="stylesheet" href="./assets/css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="./assets/libraries/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
+        <script src="./assets/libraries/jquery/jquery.min.js"></script>
+        <script src="./assets/libraries/bootstrap/js/bootstrap.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <!--Don`t forget to copy upto this import in every page-->
+        <!-- Custom CSS and JS for this specific page starts here. Don`t copy this to other pages-->
+        <link rel="stylesheet" href="./assets/css/book.css" type="text/css">
+        <script src="./assets/js/book.js"></script>
+        
+    </head>
+    <body>
+        <!--Header START-->
+        <div id="header" class="header">
+            <h3 id="company_logo">R.K</h3>
+            <h4 id="company_sub_quote">GROUP OF HOTELS</h4>
+            <div class="header-inner">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Header END-->
+        <!--Main landing view section-->
+
+        <div class="grid-container">
+            <div class="item1">
+               
+            </div>
+            <div class="item2">
+                <div class="item2_flex content-flex">
+                    <div class="flex-item">
+                       
+                        <input type="text" class="" id="start_dest" placeholder="Where to?">
+                    </div>
+                    <div class="flex-item">
+                        
+                        <input type="text" class="" id="from_date" placeholder="Check in" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+                    </div>
+                    <div class="flex-item">
+                        
+                        <input type="text" class="" id="to_date" placeholder="Checkout" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+                    </div>
+                    <div class="flex-item">
+                        <button id="search" class="search">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item3">
+                <div class="item3_flex content-flex"></div>
+            </div>
+        </div>
+        <section id="data">
+            <div id="card-flex" class="card-flex">
+                <div class="flex-item">
+                    <img src="./assets/images/hotel1.jpg">
+                    <h3>The Glengate Hotel</h3>
+                    <p>Breakfast included | 
+                    Free cancellation</p>
+                    <p class="rating">Excellent <span class="excellent">4.5</span></p>
+                    <p class="price"> CAD 3,500</p>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/images/hotel2.jpg">
+                    <h3>The Oakes Hotel</h3>
+                    <p>Two Queen beds | Free cancellation</p>
+
+                    <p class="rating">Good <span class="good">3.5</span></p>
+                    <p class="price"> CAD 2,500</p>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/images/hotel3.jpg">
+                    <h3>Country Inn & Suites</h3>
+                    <p>Breakfast included | 
+                        Free cancellation</p>
+
+                    <p class="rating">Excellent <span class="excellent">4.8</span></p>
+                    <p class="price"> CAD 2,500</p>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/images/hotel4.jpg">
+                    <h3>Falls Lodge & Suites</h3>
+                    <p>Queen room | Free cancellation</p>
+
+                    <p class="rating">Good <span class="good">3.7</span></p>
+                    <p class="price"> CAD 2,450</p>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/images/hotel5.jpg">
+                    <h3>Sunset Inn</h3>
+                    <p>Standar room | Cancellation fees apply</p>
+
+                    <p class="rating">Bad <span class="bad">1.7</span></p>
+                    <p class="price"> CAD 950</p>
+                </div>
+                <div class="flex-item">
+                    <img src="./assets/images/hotel6.jpg">
+                    <h3>Quenn`s Lodge</h3>
+                    <p>Standard room</p>
+
+                    <p class="rating">Bad <span class="bad">1.2</span></p>
+                    <p class="price"> CAD 750</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy RK GROUP OF HOTELS</p>
+        </footer>
+    </body>
+</html>

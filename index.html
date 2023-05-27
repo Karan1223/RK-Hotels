@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Added basic CSS and JS files-->
+        <link rel="stylesheet" href="./assets/css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="./assets/libraries/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
+        <script src="./assets/libraries/jquery/jquery.min.js"></script>
+        <script src="./assets/libraries/bootstrap/js/bootstrap.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <!--Don`t forget to copy upto this import in every page-->
+        <!-- Custom CSS and JS for this specific page starts here. Don`t copy this to other pages-->
+        <link rel="stylesheet" href="./assets/css/home.css" type="text/css">
+        <script src="./assets/js/home.js"></script>
+        <style>
+            @media screen and (max-width:736px) {
+                .main_view .image_container h2 {
+                    font-size: 110px;
+                }
+            }
+            @media screen and (max-width:530px) {
+                .header {
+                    height: 150px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!--Header START-->
+        <div id="header" class="header">
+            <h3 id="company_logo">R.K</h3>
+            <h4 id="company_sub_quote">GROUP OF HOTELS</h4>
+            <div class="header-inner">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="book.html">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Header END-->
+        <!--Main landing view section-->
+        <section class="main_view" id="main_view">
+            <div class="image_container">
+                <img src="./assets/images/home2.jpg">
+                <h2>End point <br>of<br><span>luxury.</span></h2>
+            </div>
+        </section>
+
+
+        <section class="image_collages" id="image_collages">
+            <div class="collage-container">
+                <h2>Enjoy the art of<br><span><i>living.</i></span></h2>
+                <div class="flex-images">
+                    <img src="./assets/images/coll_1.jpg">
+                    <img src="./assets/images/coll_2.jpg">
+                    <img src="./assets/images/coll_3.jpg">
+                    <img src="./assets/images/coll_4.jpg">
+                </div>
+            </div>
+        </section>
+        <section class="image_collages_two" id="image_collages_two">
+            <div class="collage-container-two">
+                <h2>Feel at home<br><span>AWAY FROM HOME.</span></h2>
+                <div class="flex-images">
+                    <img src="./assets/images/col2_1.jpg">
+                    <img src="./assets/images/col2_2.jpg">
+                    <img src="./assets/images/col2_3.jpg">
+                </div>
+                <div class="flex-images">
+                    <img src="./assets/images/col2_4.jpg">
+                    <img src="./assets/images/col2_5.jpg">
+                    <img src="./assets/images/col2_6.jpg">
+                </div>
+            </div>
+        </section>
+        <br>
+        <footer>
+            <p>&copy RK GROUP OF HOTELS</p>
+        </footer>
+    </body>
+</html>
